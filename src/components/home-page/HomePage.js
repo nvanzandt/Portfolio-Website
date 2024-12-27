@@ -142,16 +142,16 @@ function HomePage() {
           technologies="React.js Flask OpenAI API Spotify Web API"
           description="A full-stack web application that creates AI-powered Spotify playlists based on book selections. Users can authenticate with Spotify, select books, and receive personalized playlists that match the book's themes and mood. Built with a Flask backend handling OAuth 2.0 and OpenAI integration, paired with a responsive React frontend featuring real-time playlist generation and a user review system."
           linkType="github"
-          linkUrl="https://github.com/yourusername/bookify"
+          linkUrl="https://github.com/nvanzandt/CS411-Bookify"
         />
         <ProjectCard 
           project="project3"
           title="Wiki"
-          date="Dec 2023 - Jan 2024"
+          date="July 2023 - Sep 2023"
           technologies="Django HTML CSS"
           description="A Wikipedia-style web application that allows users to create and edit encyclopedia entries using Markdown. Features include real-time Markdown preview, partial-match search functionality, and random page discovery. Built with Django and styled with Bootstrap for a responsive, user-friendly interface."
           linkType="github"
-          linkUrl="https://github.com/yourusername/wiki"
+          linkUrl="https://github.com/nvanzandt/CS50W-Wiki"
         />
       </div>
       <h1 className="text-sm mt-10">© Nathan Van Zandt 2024</h1>
