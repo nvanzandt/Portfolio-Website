@@ -154,7 +154,7 @@ function HomePage() {
           linkUrl="https://github.com/nvanzandt/CS50W-Wiki"
         />
       </div>
-      <h1 className="text-sm mt-10">© Nathan Van Zandt 2024</h1>
+      <h1 className="text-sm mt-10">By Nathan Van Zandt</h1>
     </div>
   );
 }
