@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.d13b1050.css",
-    "main.js": "/Portfolio-Website/static/js/main.68dcd713.js",
-    "static/js/488.9ec73701.chunk.js": "/Portfolio-Website/static/js/488.9ec73701.chunk.js",
-    "static/media/home.png": "/Portfolio-Website/static/media/home.0ac87b33e277ebd6aa46.png",
-    "static/media/playlist.png": "/Portfolio-Website/static/media/playlist.827085b3c4187c664aa6.png",
-    "static/media/results.png": "/Portfolio-Website/static/media/results.aec164084edec7f15791.png",
-    "static/media/restaurant.png": "/Portfolio-Website/static/media/restaurant.1d34eba72f4e15c149c3.png",
-    "static/media/reviews2.png": "/Portfolio-Website/static/media/reviews2.2f1a2f2311301e5201b0.png",
-    "static/media/me2.jpg": "/Portfolio-Website/static/media/me2.498f3ddac897fbd13581.jpg",
-    "static/media/page.png": "/Portfolio-Website/static/media/page.9a41e4bbcc7fbb9282f6.png",
-    "static/media/edit.png": "/Portfolio-Website/static/media/edit.9f1c757d163b988dd525.png",
-    "static/media/book.png": "/Portfolio-Website/static/media/book.dd2f72a155a89b2fa94c.png",
-    "static/media/login.png": "/Portfolio-Website/static/media/login.3e1914033563a62220bb.png",
-    "static/media/new-page.png": "/Portfolio-Website/static/media/new-page.bc59b1ac94e76adbb5f8.png",
-    "index.html": "/Portfolio-Website/index.html",
-    "main.d13b1050.css.map": "/Portfolio-Website/static/css/main.d13b1050.css.map",
-    "main.68dcd713.js.map": "/Portfolio-Website/static/js/main.68dcd713.js.map",
-    "488.9ec73701.chunk.js.map": "/Portfolio-Website/static/js/488.9ec73701.chunk.js.map"
+    "main.css": "/static/css/main.d13b1050.css",
+    "main.js": "/static/js/main.962d9d10.js",
+    "static/js/488.9ec73701.chunk.js": "/static/js/488.9ec73701.chunk.js",
+    "static/media/home.png": "/static/media/home.0ac87b33e277ebd6aa46.png",
+    "static/media/playlist.png": "/static/media/playlist.827085b3c4187c664aa6.png",
+    "static/media/results.png": "/static/media/results.aec164084edec7f15791.png",
+    "static/media/restaurant.png": "/static/media/restaurant.1d34eba72f4e15c149c3.png",
+    "static/media/reviews2.png": "/static/media/reviews2.2f1a2f2311301e5201b0.png",
+    "static/media/me2.jpg": "/static/media/me2.498f3ddac897fbd13581.jpg",
+    "static/media/page.png": "/static/media/page.9a41e4bbcc7fbb9282f6.png",
+    "static/media/edit.png": "/static/media/edit.9f1c757d163b988dd525.png",
+    "static/media/book.png": "/static/media/book.dd2f72a155a89b2fa94c.png",
+    "static/media/login.png": "/static/media/login.3e1914033563a62220bb.png",
+    "static/media/new-page.png": "/static/media/new-page.bc59b1ac94e76adbb5f8.png",
+    "index.html": "/index.html",
+    "main.d13b1050.css.map": "/static/css/main.d13b1050.css.map",
+    "main.962d9d10.js.map": "/static/js/main.962d9d10.js.map",
+    "488.9ec73701.chunk.js.map": "/static/js/488.9ec73701.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d13b1050.css",
-    "static/js/main.68dcd713.js"
+    "static/js/main.962d9d10.js"
   ]
 }
