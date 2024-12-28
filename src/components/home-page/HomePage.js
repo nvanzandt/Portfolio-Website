@@ -9,12 +9,6 @@ import Bookify_Playlist from '../../images/Bookify/playlist.png';
 import Bookify_Login from '../../images/Bookify/login.png';
 import Bookify_Book from '../../images/Bookify/book.png';
 
-import Wiki_Page from '../../images/Wiki/page.png';
-import Wiki_Edit from '../../images/Wiki/edit.png';
-import Wiki_NewPage from '../../images/Wiki/new-page.png';
-import Wiki_Home from '../../images/Wiki/home.png';
-
-
 
 
 import { useState } from 'react';
@@ -28,8 +22,7 @@ function HomePage() {
 
   const projectImages = {
     project1: [FGE_Home, FGE_Results, FGE_Restaurant, FGE_Reviews2],
-    project2: [Bookify_Playlist, Bookify_Login, Bookify_Book],
-    project3: [Wiki_Page, Wiki_Edit, Wiki_NewPage, Wiki_Home]
+    project2: [Bookify_Playlist, Bookify_Login, Bookify_Book]
   };
 
   const nextImage = (project) => {
@@ -47,7 +40,7 @@ function HomePage() {
   };
 
   const ProjectCard = ({ project, title, date, description, technologies, linkType, linkUrl }) => (
-    <div className="bg-gray-200 p-4 rounded-md max-w-[498px]">
+    <div className="bg-gray-200 p-4 rounded-md max-w-[498px] h-full">
       <div className="flex justify-between">
         <h4 className="text-xl font-bold">{title}</h4>
         <h2 className="text-sm text-gray-600 pl-2">{date}</h2>
@@ -143,15 +136,6 @@ function HomePage() {
           description="A full-stack web application that creates AI-powered Spotify playlists based on book selections. Users can authenticate with Spotify, select books, and receive personalized playlists that match the book's themes and mood. Built with a Flask backend handling OAuth 2.0 and OpenAI integration, paired with a responsive React frontend featuring real-time playlist generation and a user review system."
           linkType="github"
           linkUrl="https://github.com/nvanzandt/CS411-Bookify"
-        />
-        <ProjectCard 
-          project="project3"
-          title="Wiki"
-          date="July 2023 - Sep 2023"
-          technologies="Django HTML CSS"
-          description="A Wikipedia-style web application that allows users to create and edit encyclopedia entries using Markdown. Features include real-time Markdown preview, partial-match search functionality, and random page discovery. Built with Django and styled with Bootstrap for a responsive, user-friendly interface."
-          linkType="github"
-          linkUrl="https://github.com/nvanzandt/CS50W-Wiki"
         />
       </div>
       <h1 className="text-sm mt-10">By Nathan Van Zandt</h1>
