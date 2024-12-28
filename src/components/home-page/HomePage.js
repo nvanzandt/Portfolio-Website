@@ -110,8 +110,8 @@ function HomePage() {
       <h3 className="text-3xl mt-10 mb-5">About</h3>
       <p className="text-sm text-gray-600 w-full max-w-screen-md sm:w-11/12 ">
         I graduated from Boston University with a major in Health Science and a minor in Computer Science, and I'm now pursuing my passion for software development. 
-        I have a strong background in front-end development, with a focus on React.js and Tailwind CSS. I am also proficient 
-        in back-end development, with experience in Node.js and Express.js. I am a quick learner and have a knack for problem-solving. 
+        I have a strong background in front-end development, with a focus on React and Tailwind CSS. I am also proficient 
+        in back-end development, with experience in Node.js and Express. I am a quick learner and have a knack for problem-solving. 
         I am a team player and always looking to improve my skills.
         <br></br>
         <br></br>
@@ -123,7 +123,7 @@ function HomePage() {
           project="project1"
           title="FeelGoodEats.net"
           date="Feb 2024 - Dec 2024"
-          technologies="React.js Express.js Firebase Tailwind CSS"
+          technologies="React &nbsp; Node.js &nbsp; Express &nbsp; Firebase &nbsp; Tailwind CSS"
           description="A restaurant review platform focused on dietary preferences, helping users find and review restaurants that accommodate their specific needs. Features include real-time updates, interactive search filters, image uploads, and Google Maps integration for restaurant discovery. Built with React and Firebase, offering Google OAuth authentication and comprehensive admin capabilities."
           linkType="site"
           linkUrl="https://feelgoodeats.net"
@@ -132,7 +132,7 @@ function HomePage() {
           project="project2"
           title="Bookify"
           date="Sep 2023 - Dec 2023"
-          technologies="React.js Flask OpenAI API Spotify Web API"
+          technologies="React &nbsp; Flask &nbsp; OpenAI API &nbsp; Spotify Web API"
           description="A full-stack web application that creates AI-powered Spotify playlists based on book selections. Users can authenticate with Spotify, select books, and receive personalized playlists that match the book's themes and mood. Built with a Flask backend handling OAuth 2.0 and OpenAI integration, paired with a responsive React frontend featuring real-time playlist generation and a user review system."
           linkType="github"
           linkUrl="https://github.com/nvanzandt/CS411-Bookify"
