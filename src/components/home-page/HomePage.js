@@ -141,7 +141,7 @@ function HomePage() {
           project="project2"
           title="Bookify"
           date="Sep 2023 - Dec 2023"
-          technologies="React Flask OpenAI API Spotify Web API mySQL"
+          technologies="React &nbsp; Flask &nbsp; OpenAI API &nbsp; Spotify Web API &nbsp; mySQL"
           description="A software engineering course project that creates AI-powered Spotify playlists based on book selections. Users can authenticate with Spotify, select books, and receive playlists that match the book's themes and mood. Built with a Flask backend handling OAuth 2.0 and OpenAI integration, paired with a responsive React frontend featuring real-time playlist generation and a user review system."
           links={[
             {
