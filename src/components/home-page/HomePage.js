@@ -39,7 +39,7 @@ function HomePage() {
     }));
   };
 
-  const ProjectCard = ({ project, title, date, description, technologies, linkType, linkUrl }) => (
+  const ProjectCard = ({ project, title, date, description, technologies, links }) => (
     <div className="bg-gray-200 p-4 rounded-md max-w-[498px] h-full">
       <div className="flex justify-between">
         <h4 className="text-xl font-bold">{title}</h4>
@@ -87,12 +87,17 @@ function HomePage() {
       </div>
       <h1 className="mb-2">{technologies}</h1>
       <p className="text-sm text-gray-600 mb-2">{description}</p>
-      <button 
-        onClick={() => window.open(linkUrl, '_blank')}
-        className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200"
-      >
-        {linkType === 'github' ? 'View GitHub' : 'View Site'}
-      </button>
+      <div className="flex gap-4">
+        {links.map((link, index) => (
+          <button 
+            key={index}
+            onClick={() => window.open(link.url, '_blank')}
+            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200"
+          >
+            {link.type === 'github' ? 'View GitHub' : 'View Site'}
+          </button>
+        ))}
+      </div>
     </div>
   );
 
@@ -125,17 +130,30 @@ function HomePage() {
           date="Feb 2024 - Dec 2024"
           technologies="React &nbsp; Node.js &nbsp; Express &nbsp; Firebase &nbsp; Tailwind CSS"
           description="A restaurant review platform focused on dietary preferences, helping users find and review restaurants that accommodate their specific needs. Features include real-time updates, interactive search filters, image uploads, and Google Maps integration for restaurant discovery. Built with React and Firebase, offering Google OAuth authentication and comprehensive admin capabilities."
-          linkType="site"
-          linkUrl="https://feelgoodeats.net"
+          links={[
+            {
+              type: 'site',
+              url: 'https://feelgoodeats.net'
+            }
+          ]}
         />
         <ProjectCard 
           project="project2"
           title="Bookify"
           date="Sep 2023 - Dec 2023"
-          technologies="React &nbsp; Flask &nbsp; OpenAI API &nbsp; Spotify Web API"
-          description="A full-stack web application that creates AI-powered Spotify playlists based on book selections. Users can authenticate with Spotify, select books, and receive personalized playlists that match the book's themes and mood. Built with a Flask backend handling OAuth 2.0 and OpenAI integration, paired with a responsive React frontend featuring real-time playlist generation and a user review system."
-          linkType="github"
-          linkUrl="https://github.com/nvanzandt/CS411-Bookify"
+          technologies="React Flask OpenAI API Spotify Web API mySQL"
+          description="A software engineering course project that creates AI-powered Spotify playlists based on book selections. Users can authenticate with Spotify, select books, and receive playlists that match the book's themes and mood. Built with a Flask backend handling OAuth 2.0 and OpenAI integration, paired with a responsive React frontend featuring real-time playlist generation and a user review system."
+          links={[
+            {
+              type: 'site',
+              url: 'https://cs-411-bookify.vercel.app/'
+            },
+            {
+              type: 'github',
+              url: 'https://github.com/nvanzandt/CS411-Bookify'
+            },
+            
+          ]}
         />
       </div>
       <h1 className="text-sm mt-10">By Nathan Van Zandt</h1>
