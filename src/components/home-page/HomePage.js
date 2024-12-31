@@ -128,7 +128,7 @@ function HomePage() {
           project="project1"
           title="FeelGoodEats.net"
           date="Feb 2024 - Dec 2024"
-          technologies="React &nbsp; Node.js &nbsp; Express &nbsp; Firebase &nbsp; Tailwind CSS"
+          technologies="React &nbsp; Express &nbsp; Node.js &nbsp; Firebase &nbsp; Tailwind"
           description="A restaurant review platform focused on dietary preferences, helping users find and review restaurants that accommodate their specific needs. Features include real-time updates, interactive search filters, image uploads, and Google Maps integration for restaurant discovery. Built with React and Firebase, offering Google OAuth authentication and comprehensive admin capabilities."
           links={[
             {
